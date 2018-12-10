@@ -4,3 +4,4 @@ show_downloads: false
 google_analytics:
 baseurl: /blog
 permalink: /:categories/:year/:month/:day/:title:output_ext
+plugins_dir: _plugins

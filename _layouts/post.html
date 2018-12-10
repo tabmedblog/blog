@@ -23,8 +23,10 @@
         <div class="meta">
           by {{ page.author }}
           <br/>published on {{ page.date | date: '%B %d, %Y'  }}
-          {% if page.last_edited && page.last_edited > page.date %}
-          , last edited on {{ page.last_edited | date: '%B %d, %Y'  }}
+          {% if page.last_edited %}
+            {% if page.last_edited != page.date %}
+            , last edited on {{ page.last_edited | date: '%B %d, %Y'  }}
+            {% endif %}
           {% endif %}
         </div>
 
