@@ -1,10 +1,9 @@
 ---
-layout: post
 title:  "Instructions for writers"
 author: "Alexis Guinebertiere"
-date:   2018-12-09
 last_edited: 2018-12-10
 categories: Technical
+layout: post
 ---
 
 This post is a template that you can use to create you own posts.
@@ -35,6 +34,9 @@ Then we can use
 	Blocks of code
 	Like this block
 
+Another type of
+
+> Block code
 
 ## Inserting a viz from Tableau Public
 
