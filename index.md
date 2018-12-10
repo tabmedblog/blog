@@ -22,4 +22,6 @@ This blog is written by Tableau consultants. Here are the past contributors:
 - Claire Folks
 - Chris Tolley
 - Esther Schenau
+- Derek Cyr
+- Andrew Kavanaugh
 - Alexis Guinebertiere

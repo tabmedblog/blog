@@ -40,5 +40,6 @@ Another type of
 
 ## Inserting a viz from Tableau Public
 
-{% tableauviz https://public.tableau.com/views/CMITA20182019/Dashboard1?:embed=y&:display_count=yes id:1 width:600px height:600px %}
+{% tableauviz https://public.tableau.com/views/CMITA20182019/Dashboard1?:embed=y&:display_count=yes id:1 width:100% height:600px %}
+
 

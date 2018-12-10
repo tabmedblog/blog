@@ -1,7 +1,7 @@
     <!-- HEADER -->
     <div id="header_wrap" class="outer">
         <header class="inner">
-          <a href="{{ site.url }}{{ site.baseurl }}/""><h1 id="project_title">{{ site.title | default: site.github.repository_name }}</h1></a>
+          <a href="{{ site.baseurl }}/"><h1 id="project_title">{{ site.title | default: site.github.repository_name }}</h1></a>
           <h2 id="project_tagline">{{ site.description | default: site.github.project_tagline }}</h2>
 
           {% if site.show_downloads %}
