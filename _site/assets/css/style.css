@@ -564,3 +564,10 @@ form {
     min-width: 240px;
     max-width: 320px;
     font-size: 11px; } }
+.meta {
+  margin-top: 20px;
+  padding: 5px;
+  margin-bottom: 20px;
+  border-top: 1px solid #AAA;
+  border-bottom: 1px solid #AAA;
+  background-color: #EEE; }
