@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,maximum-scale=2">
+    <link rel="stylesheet" type="text/css" media="screen" href="/assets/css/style.css?v=">
+
+
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          
+
+          <h1 id="project_title">TabMed Blog</h1>
+          <h2 id="project_tagline">A blog written by Tableau consultants for healthcare users.</h2>
+
+          
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+
+        <h1> PMPM Calculations - Part 3 of 3 </h1>
+
+        <div class="meta">
+          2018-12-09 00:00:00 -0500
+          <br/>by Alexis Guinebertiere
+        </div>
+
+        <p>A membership table typically looks like this:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>row_id</th>
+      <th>effective_date</th>
+      <th>end_date</th>
+      <th>member_id</th>
+      <th>plan_id</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>1/1/2018</td>
+      <td>1/1/2019</td>
+      <td>M1</td>
+      <td>P1</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>1/1/2018</td>
+      <td>1/1/2019</td>
+      <td>M2</td>
+      <td>P1</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>A member table will typically look like this:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>member_id</th>
+      <th>effective_date</th>
+      <th>end_date</th>
+      <th>state</th>
+      <th>…</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>M1</td>
+      <td>1/1/2018</td>
+      <td>6/1/2018</td>
+      <td>CA</td>
+      <td>…</td>
+    </tr>
+    <tr>
+      <td>M1</td>
+      <td>6/1/2018</td>
+      <td>1/1/2019</td>
+      <td>NY</td>
+      <td>…</td>
+    </tr>
+    <tr>
+      <td>M2</td>
+      <td>1/1/2018</td>
+      <td>1/1/2019</td>
+      <td>MA</td>
+      <td>…</td>
+    </tr>
+  </tbody>
+</table>
+
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        
+        <p>Published with <a href="https://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+    
+  </body>
+</html>
