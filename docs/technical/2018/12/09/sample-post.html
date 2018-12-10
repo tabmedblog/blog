@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,maximum-scale=2">
+    <link rel="stylesheet" type="text/css" media="screen" href="/blog/assets/css/style.css?v=">
+
+
+  </head>
+
+  <body>
+
+        <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <h1 id="project_title">TabMed Blog</h1>
+          <h2 id="project_tagline">A blog written by Tableau consultants for healthcare users.</h2>
+
+          
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+
+        <h1> Instructions for writers </h1>
+
+        <div class="meta">
+          by Alexis Guinebertiere
+          <br/>published on December 09, 2018
+          
+            
+            , last edited on December 10, 2018
+            
+          
+        </div>
+
+        <p>This post is a template that you can use to create you own posts.</p>
+
+<h1 id="creating-a-new-post">Creating a new post</h1>
+
+<h2 id="creating-a-file">Creating a file</h2>
+
+<ol>
+  <li>Open the _posts folder in the repository.</li>
+  <li>Open the “-sample-post.md” file.</li>
+  <li>Save it as your own filename, using the <code class="highlighter-rouge">YYYY-MM-DD-my-file-name.md</code> syntax</li>
+</ol>
+
+<h2 id="editing-the-file">Editing the file</h2>
+
+<p>You are using <em>markdown</em> to write your article.
+Use this sample post as an example to find out how to achieve the desired format.</p>
+
+<h1 id="sample-formatting-below">Sample formatting below</h1>
+
+<h2 id="this-is-a-second-level-section">This is a second-level section</h2>
+
+<h3 id="this-is-a-third-level-section">This is a third-level section</h3>
+
+<p>First we can use <code class="highlighter-rouge">inline code</code></p>
+
+<p>Then we can use</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Blocks of code
+Like this block
+</code></pre></div></div>
+
+<h2 id="inserting-a-viz-from-tableau-public">Inserting a viz from Tableau Public</h2>
+
+<script src="https://public.tableau.com/javascripts/api/tableau-2.min.js"></script>
+
+<div class="tableauPlaceholder" id="1" style="position: relative">
+</div>
+<script type="text/javascript">
+	var placeholderDiv = document.getElementById('1');
+	var url = 'https://public.tableau.com/views/CMITA20182019/Dashboard1?:embed=y&:display_count=yes';
+	var options = {
+	   hideTabs: true,
+	   width: '600px',
+	   height: '600px',
+	   onFirstInteractive: function() {
+	     // The viz is now ready and can be safely used.
+	   }
+	};
+	var viz = new tableau.Viz(placeholderDiv, url, options);
+</script>
+
+
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        
+        <p>Published with <a href="https://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+    
+  </body>
+</html>
