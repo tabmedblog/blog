@@ -1,7 +1,7 @@
 title: TabMed Blog
 description: A blog written by Tableau consultants for healthcare users
 show_downloads: false
-google_analytics:
+google_analytics: UA-130784123-1
 baseurl: /blog
 permalink: /:categories/:year/:month/:day/:title:output_ext
 plugins_dir: _plugins
