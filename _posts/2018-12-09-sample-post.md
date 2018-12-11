@@ -1,5 +1,5 @@
 ---
-title:  "Instructions for writers"
+title:  "Sample post"
 author: "Alexis Guinebertiere"
 last_edited: 2018-12-10
 categories: Technical
@@ -7,26 +7,20 @@ layout: post
 comments: true
 ---
 
-This post is a template that you can use to create you own posts.
-
-# Creating a new post
-
-## Creating a file
-
-1. Open the \_posts folder in the repository.
-2. Open the "-sample-post.md" file.
-3. Save it as your own filename, using the `YYYY-MM-DD-my-file-name.md` syntax
-
-## Editing the file
-
-You are using *markdown* to write your article.
-Use this sample post as an example to find out how to achieve the desired format.
+This post is post to showcase formatting options. Source can found [here](https://raw.githubusercontent.com/tabmedblog/blog/master/_posts/2018-12-09-sample-post.md)
 
 # Sample formatting below
 
 ## This is a second-level section
 
 ### This is a third-level section
+
+A table of data:
+
+| row_id | effective_date | end_date | member_id | plan_id |
+|--------|----------------|----------|-----------|---------|
+| 1      | 1/1/2018       | 1/1/2019 | M1        | P1      |
+| 2      | 1/1/2018       | 1/1/2019 | M2        | P1      |
 
 First we can use `inline code`
 
