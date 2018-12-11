@@ -21,6 +21,23 @@
         <h1> {{ page.title }} </h1>
 
         <div class="meta">
+          {% if page.author %}
+
+          {% capture p %}/assets/images/{{ page.author | replace: ' ', '' | downcase }}.png{% endcapture %}
+
+            {% for static_file in site.static_files %}
+                {% if static_file.path == p %}
+                    {% assign foundpic = true %}
+                {% endif %}
+            {% endfor %}
+
+            {% if foundpic %}
+
+            {% assign a = page.author %}
+            <img class="meta" src="{{ '/assets/images/' | relative_url }}{% lowernospace a %}.png" width="50px" height="50px"/>
+
+            {% endif %}
+          {% endif %}
           by {{ page.author }}
           <br/>published on {{ page.date | date: '%B %d, %Y'  }}
           {% if page.last_edited %}

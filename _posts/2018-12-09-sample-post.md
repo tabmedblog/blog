@@ -4,6 +4,7 @@ author: "Alexis Guinebertiere"
 last_edited: 2018-12-10
 categories: Technical
 layout: post
+comments: true
 ---
 
 This post is a template that you can use to create you own posts.
