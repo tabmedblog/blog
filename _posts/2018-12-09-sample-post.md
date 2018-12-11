@@ -7,7 +7,8 @@ layout: post
 comments: true
 ---
 
-This post is post to showcase formatting options. Source can found [here](https://raw.githubusercontent.com/tabmedblog/blog/master/_posts/2018-12-09-sample-post.md)
+This post is post to showcase formatting options. Source can found [here](https://raw.githubusercontent.com/tabmedblog/blog/master/_posts/2018-12-09-sample-post.md).
+This, by the way, was an example of how to make an hyperlink.
 
 # Sample formatting below
 
@@ -33,8 +34,24 @@ Another type of
 
 > Block code
 
+## Hyperlink to file
+
+Share your file on dropbox, then create a link. Download the [HCAPSDemo.zip](https://www.dropbox.com/s/euknrodj76i059z/HCAPS%20Demo.zip?dl=1) file.
+
+If you are using dropbox, make sure to have a `?dl=1` at the end of your url if you want the link to trigger a download. If you have `?dl=0`, this will take you to a preview of the file on dropbox's website.
+
+## Inserting an image
+
+This is a partial screenshot:
+
+![partial screenshot](https://www.dropbox.com/s/2382wbaf0x2at5d/Screen%20Shot%202018-12-11%20at%209.44.02%20AM.png?dl=1)
+
+If you are using dropbox, make sure to have a `?dl=1` at the end of your url, otherwise dropbox will take you to a preview of the file *in their website*, which is not what you want for an image.
+
 ## Inserting a viz from Tableau Public
 
-{% tableauviz https://public.tableau.com/views/CMITA20182019/Dashboard1?:embed=y&:display_count=yes id:1 width:100% height:600px %}
+As you can see, when designing a workbook for the blog, you'll want to keep it fairly skinny.
+
+{% tableauviz https://public.tableau.com/views/KnowYourBlood/KonwYourBlood?:embed=y&:embed_code_version=3&:loadOrderID=0&:display_count=yes id:1 width:100% height:600px %}
 
 
