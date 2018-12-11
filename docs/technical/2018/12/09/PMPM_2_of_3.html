@@ -51,37 +51,39 @@
           
         </div>
 
-        <p>A membership table typically looks like this:</p>
+        <h1 id="lets-look-at-our-sample-dataset">Let’s look at our sample dataset</h1>
+
+<h3 id="membership-table">Membership table</h3>
 
 <table>
   <thead>
     <tr>
-      <th>row_id</th>
-      <th>effective_date</th>
-      <th>end_date</th>
       <th>member_id</th>
       <th>plan_id</th>
+      <th>effective_date</th>
+      <th>end_date</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>1</td>
-      <td>1/1/2018</td>
-      <td>1/1/2019</td>
       <td>M1</td>
       <td>P1</td>
+      <td>1/1/2018</td>
+      <td>7/1/2018</td>
     </tr>
     <tr>
-      <td>2</td>
-      <td>1/1/2018</td>
-      <td>1/1/2019</td>
       <td>M2</td>
       <td>P1</td>
+      <td>1/1/2018</td>
+      <td>1/1/2019</td>
     </tr>
   </tbody>
 </table>
 
-<p>A member table will typically look like this:</p>
+<p>Member M1 was a member of plan P1 for the first six months of 2018.
+Member M2 was a member of plan P1 for the whole year.</p>
+
+<h3 id="member-table">Member table</h3>
 
 <table>
   <thead>
@@ -117,6 +119,41 @@
     </tr>
   </tbody>
 </table>
+
+<h3 id="claims-table">Claims table</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>claim_id</th>
+      <th>date</th>
+      <th>member_id</th>
+      <th>charges</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>C1</td>
+      <td>3/15/2018</td>
+      <td>M1</td>
+      <td>$5,000</td>
+    </tr>
+    <tr>
+      <td>C2</td>
+      <td>6/4/2018</td>
+      <td>M2</td>
+      <td>$2,100</td>
+    </tr>
+    <tr>
+      <td>C3</td>
+      <td>6/15/2018</td>
+      <td>M2</td>
+      <td>$200</td>
+    </tr>
+  </tbody>
+</table>
+
+<h1 id="exploring-the-blending-option">Exploring the blending option</h1>
 
 <p><a href="/blog/technical/2018/12/09/PMPM_1_of_3.html">Go back to part 1 of 3 here</a></p>
 

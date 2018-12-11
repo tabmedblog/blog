@@ -47,9 +47,13 @@
           
         </div>
 
-        <p>Per-member per-month (PMPM) calculations are key for healthcare payers. Say that, in a given month, your total payout is $10M in claims and you had 1M members in your plan. Your monthly insurance premium has to be at least $100M / 1M = $100 for you to cover your claim expenses. Add your other costs and you have an indication of what your premiums should be.</p>
+        <p>Per-member per-month (PMPM) calculations are key for healthcare payers.</p>
 
-<p>PMPM calculations are a way to observe trends, as well as slice and dice healthcare numbers. They allow for a fair comparison across different populations (e.g. the 0-20 year olds vs the 21+ year olds, or the West coast population vs the South population). They can also help identify what contributes to a particular cost, e.g. breakdown the monthly payouts by line of service.</p>
+<p>It is the ratio of a cost or other healthcare metric divided by the number of members in a group or plan, on a monthly basis.</p>
+
+<p>Example: say that, in a given month, your total payout is $10M in claims and you had 1M members in your plan. Your payout PMPM is $100M / 1M = $100. Add your other costs and you have an indication of what your monthly premiums should be.</p>
+
+<p>PMPM calculations enable trending and slicing and dicing healthcare numbers. They allow for a fair comparison across different populations (e.g. the 0-20 year olds vs the 21+ year olds, or the West coast population vs the South population). They can also help identify what contributes to a particular cost, e.g. breakdown the monthly payouts by line of service.</p>
 
 <h1 id="compare-across-member-dimensions">Compare across member dimensions</h1>
 
@@ -59,15 +63,25 @@
 
 <p>By calculating measures and dividing them by the number of members concerned, you are able to do a <em>fair comparison</em> of your measure.</p>
 
-<h1 id="compare-across-other-dimensions">Compare across other dimensions</h1>
+<p><img src="/blog/assets/images/PMPM-1-of-3-img2.png" alt="PMPM charges broken out by service line" /></p>
 
-<p>If you use other dimensions, such as service line, you are now breaking up your measure and are looking at the <em>contribution</em> of a service line towards the overall PMPM value.</p>
+<p>The map above compares charges PMPM across states. It is a fair comparison despite the facts that we have high-population and low-population states.</p>
+
+<h1 id="breakdown-using-other-dimensions">Breakdown using other dimensions</h1>
+
+<p>If you use other dimensions, such as service line, you are now breaking down your measure and are looking at the <em>contribution</em> of a service line towards the overall PMPM value.</p>
+
+<p><img src="/blog/assets/images/PMPM-1-of-3-img1.png" alt="PMPM charges broken out by service line" /></p>
+
+<p>In the example above, the total charges were $7,131. The member count in plan 1 for the month of December was 539. Therefore our charges PMPM are $7,131 / 539 = $13.23</p>
+
+<p>In the breakdown by service line, we see that the 7 service line charges PMPM are lower ($1.92 in the highlighted Neurology service line). If you add them up, you get to $13.23.</p>
 
 <h1 id="calculating-pmpm">Calculating PMPM</h1>
 
-<p>Calculating PMPM numbers always end up being a ratio. It’s the ratio of your aggregate measure, divided by the number of member-month in your population and timeframe.</p>
+<p>Calculating PMPM numbers is simple arithmetic. It’s the ratio of your aggregate measure, divided by the number of member-month in your population and timeframe.</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>SUM( Cost ) / SUM( MM )
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>SUM( Charges ) / SUM( MM )
 </code></pre></div></div>
 
 <p>How we get to this point is the object of parts 2 and 3 of this article.</p>
