@@ -6,3 +6,16 @@ baseurl: /blog
 permalink: /:categories/:year/:month/:day/:title:output_ext
 plugins_dir: _plugins
 destination: ./docs
+
+collections:
+  category:
+    output: true
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: category
+    values:
+      layout: "category"
+

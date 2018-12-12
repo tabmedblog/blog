@@ -2,9 +2,15 @@
 layout: default
 ---
 
-# Here are all the posts, by category:
+# Categories
 
-{% for category in site.categories limit 1 %}
+{% for category in site.categories %}
+
+- {{ category.first }} ...... {{ site.categories[category.first] | size }} posts
+
+{% endfor %}
+
+{% for category in site.categories %}
 <div class="unit half">
   <h2 id="{{ tag[0] }}-ref">{{ category.first }}</h2>
   <ul class="posts">
